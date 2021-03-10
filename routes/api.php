@@ -34,7 +34,7 @@ Route::get('/jobs/{jobId}', 'App\Http\Controllers\JobsController@getByJobId');
 
 Route::middleware('userauth')->get('/jobs/user/{userId}', 'App\Http\Controllers\JobsController@getByUserId');
 
-Route::post('jobs/{userId}', 'App\Http\Controllers\JobsController@create');
+Route::middleware('userauth')->post('jobs/{userId}', 'App\Http\Controllers\JobsController@create');
 
 Route::middleware('userauth')->put('jobs/{jobId}', 'App\Http\Controllers\JobsController@update');
 
