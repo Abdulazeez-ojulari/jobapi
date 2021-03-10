@@ -1,13 +1,13 @@
 
 ### Api Endpoints
-- **POST** /register register a user
-- **POST** /login user login
-- **GET** /jobs get list of all jobs
-- **GET** /jobs/{jobId} get job by id
-- **POST** /jobs/user/{userId} create jobs **Note: An header request X-Header-UserId must be passed**
-- **PUT** /jobs/{jobId} update job **Note: An header request X-Header-UserId must be passed**
-- **DELETE** /jobs/{jobId} delete job **Note: An header request X-Header-UserId must be passed**
-- **POST** /job-application apply for job
-- **GET** /job-application/{jobId}/jobs get job applications by job id **Note: An header request X-Header-UserId must be passed**
-- **GET** /job-application/{jobApplicationId} get job applications by id get job by id **Note: An header request X-Header-UserId must be passed**
+- **POST** /register  ...Register a user...
+- **POST** /login  ...User login...
+- **GET** /jobs ...Get list of all jobs...
+- **GET** /jobs/{jobId}  ...Get job by id...
+- **POST** /jobs/user/{userId}   ...Create jobs... **Note: An header request X-Header-UserId must be passed**
+- **PUT** /jobs/{jobId}   ...Update job... **Note: An header request X-Header-UserId must be passed**
+- **DELETE** /jobs/{jobId}   ...Delete job... **Note: An header request X-Header-UserId must be passed**
+- **POST** /job-application   ...Apply for job...
+- **GET** /job-application/{jobId}/jobs   ...Get job applications by job id... **Note: An header request X-Header-UserId must be passed**
+- **GET** /job-application/{jobApplicationId}   ...Get job applications by id get job by id... **Note: An header request X-Header-UserId must be passed**
 
